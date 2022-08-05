@@ -2,3 +2,6 @@
 
 source "https://rubygems.org"
 gemspec
+gem 'rouge'
+gem 'kramdown'
+gem 'jekyll-seo-tag'

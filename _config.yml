@@ -1,0 +1,14 @@
+markdown: kramdown
+highlighter: rouge
+show_excerpts: true
+title: 7crane | blog
+author: Adrian Garza
+kramdown:
+  syntax_highlighter: rouge
+  toc_levels: "2,3"
+
+plugins:
+  - jekyll-seo-tag
+
+archive_page: index
+home_page: index
