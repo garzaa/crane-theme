@@ -34,8 +34,8 @@ Or install it yourself as:
 
 This theme supports an archive and a home page link. They'll be populated automatically if supplied. Just add these to your `_config.yml`:
 ```yaml
-archive_page: index
-home_page: index
+archive_page: /archive
+home_page: /index
 ```
 
 ## Contributing

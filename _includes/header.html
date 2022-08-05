@@ -5,11 +5,11 @@
 	  {%- assign page_paths = site.header_pages | default: default_paths -%}
 	  {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 	  {% if site.home_page %}
-	  	<a class="home-link" href="{{ "/"+site.home_page | relative_url }}">home</a>
+	  	<a class="home-link" href="{{ site.home_page | relative_url }}">home</a>
 	  {% endif %}
 		&nbsp;
 	  {% if site.archive_page %}
-	  	<a class="archive-link" href="{{ "/"+site.archive_page | relative_url }}">all posts</a>
+	  	<a class="archive-link" href="{{ site.archive_page | relative_url }}">all posts</a>
 	  {% endif %}
 	</div>
   </header>
