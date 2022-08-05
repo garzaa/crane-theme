@@ -26,7 +26,7 @@ html, body {
 	width: 100%;
 }
 
-.post {
+.post, .home {
 	width: 100%;
 	max-width: 800px;
 }

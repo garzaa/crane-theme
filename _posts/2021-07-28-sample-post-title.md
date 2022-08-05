@@ -4,6 +4,8 @@ title: post title h1
 usemathjax: true
 ---
 
+this is a theme demo
+
 1. test
 {:toc}
 
