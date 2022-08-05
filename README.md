@@ -4,14 +4,19 @@ This is a Jekyll theme for my personal website. You can use or fork it if you'd 
 
 
 ## Installation
+### GitHub Pages
+1. add [jekyll-remote-theme](https://github.com/benbalter/jekyll-remote-theme)
+2. add `remote_theme: "garzaa/crane-theme"` to your `_config.yml`
+3. follow steps below
 
+### Other
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "crane-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+And add this line to your Jekyll site's `_config.yml` (if not using GitHub Pages):
 
 ```yaml
 theme: crane-theme
