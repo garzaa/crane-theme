@@ -63,9 +63,6 @@ html, body {
 		margin: 0;
 		width: fit-content;
 	}
-	.archive-link {
-		display: block !important;
-	}
 }
 
 .highlighter-rouge {
@@ -186,9 +183,25 @@ blockquote {
 .site-header {
 	position: sticky;
 	top: 20pt;
-	height: 0;
+	z-index: 1;
 }
 
 .header-links {
 	margin-left: 20pt;
+}
+
+.page-navigation {
+	display: flex;
+	height: 10rem;
+	align-items: center;
+	margin-top: 10rem;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.page-navigation .link-container {
+	height: 100%;
+	width: 50%;
+	text-align: center;
+	color: var(--lighter-color);
 }
