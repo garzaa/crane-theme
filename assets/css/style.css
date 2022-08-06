@@ -178,6 +178,7 @@ blockquote {
 
 .post-list {
 	padding: 0;
+	margin-top: 5rem;
 }
 
 .site-header {
@@ -204,4 +205,13 @@ blockquote {
 	width: 50%;
 	text-align: center;
 	color: var(--lighter-color);
+}
+
+#markdown-toc li {
+	transition: color 0.1s;
+	color: var(--main-color);
+}
+
+#markdown-toc .active {
+	color: var(--secondary-highlight);
 }
