@@ -10,5 +10,5 @@ kramdown:
 plugins:
   - jekyll-seo-tag
 
-archive_page: /index
+archive_page: index.md
 home_page: /index

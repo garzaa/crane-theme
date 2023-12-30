@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Racing Season in a Beach Town
+tags: writing
 ---
 You look at the ocean differently than I do. I’m not sure when our perceptions diverged, maybe it was the same time we did. I still remember being stunned for the first time when you couldn’t come over after school.
 

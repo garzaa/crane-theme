@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Designing Space for Violence
+tags: tutorial
 ---
 
 How to make a good Trouble in Terrorist Town level
