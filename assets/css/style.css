@@ -181,7 +181,7 @@ h1 {
 h2 {
 	margin-top: 10pt;
 	font-size: 30pt;
-	background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+	background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -197,11 +197,9 @@ h3 {
 
 h4 {
 	font-size: 18pt;
-	/* font-family: 'Edu VIC WA NT Beginner', cursive; */
-	font-weight: normal;
 	margin-bottom: 0;
 	margin-top: 10pt;
-	background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+	background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -218,7 +216,26 @@ h5, h5 * {
 
 a, a:visited {
 	text-decoration: underline;
+	display: inline-block;
 	color: inherit;
+}
+
+@keyframes blobBounce {
+	0% {
+		transform: scale(1, 1);
+	}
+
+	25% {
+		transform: scale(1.2, 1);
+	}
+
+	50% {
+		transform: scale(1, 1.1);
+	}
+
+	100% {
+		transform: scale(1, 1);
+	}
 }
 
 a:hover {
@@ -226,6 +243,8 @@ a:hover {
 	border-radius: 2px;
 	color: white;
 	text-decoration: none;
+	animation-duration: 0.2s;
+	animation-name: blobBounce;
 }
 
 blockquote {
