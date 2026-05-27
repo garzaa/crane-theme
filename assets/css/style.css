@@ -141,7 +141,6 @@ h1, h2, h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	margin-bottom: 0;
-	color: black;
 }
 
 ol, ul, p {
@@ -176,9 +175,6 @@ h1 {
 h2 {
 	margin-top: 10pt;
 	font-size: 30pt;
-	background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 h2::before {
@@ -194,9 +190,6 @@ h4 {
 	font-size: 18pt;
 	margin-bottom: 0;
 	margin-top: 10pt;
-	background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 h5, h5 * {
