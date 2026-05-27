@@ -3,7 +3,6 @@
 }
 
 :root {
-<<<<<<< HEAD
 	--page-bg: #f2efdf;
 	--main-bg: #f8f5e4;
 	--main-color: #5c6a72;
@@ -13,16 +12,6 @@
 	--secondary-highlight: #df69ba;
 	--code-bg: #fffbef;
 	--code-border: var(--page-bg);
-=======
-	--main-bg: #ffffff;
-	--main-color: #14213d;
-	--lighter-color: #7c7c7c;
-	--lightest-color: #abadb4;
-	--main-highlight: #ee609c;
-	--secondary-highlight: #1d90dd;
-	--code-bg: white;
-	--code-border: #e5e5e5;
->>>>>>> fb33d5d441e19c88da9dc498bb3bef1e264e8912
 }
 
 html, body {
@@ -44,13 +33,7 @@ html, body {
 	width: 100%;
 	max-width: 800px;
 	padding: 0pt 40pt;
-<<<<<<< HEAD
 	background-color: var(--main-bg);
-=======
-	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
-	background-color: var(--main-bg);
-	border-radius: 2pt;
->>>>>>> fb33d5d441e19c88da9dc498bb3bef1e264e8912
 }
 
 .orangebar {
