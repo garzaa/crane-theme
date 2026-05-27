@@ -5,3 +5,4 @@ gemspec
 gem 'rouge'
 gem 'kramdown'
 gem 'jekyll-seo-tag'
+gem "kramdown-parser-gfm"
