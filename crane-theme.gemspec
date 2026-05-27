@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "crane-theme"
-  spec.version       = "0.1.6"
+  spec.version       = "0.1.7"
   spec.authors       = ["Adrian Garza"]
   spec.email         = ["adrianhgarza@gmail.com"]
 
