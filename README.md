@@ -52,3 +52,4 @@ To test this theme, run `bundle exec jekyll serve` and open your browser at `loc
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
+TODO: this: https://emmatheeng.github.io/projects/blog_setup/blog-tags.html
